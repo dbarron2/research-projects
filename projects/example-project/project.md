@@ -1,24 +1,31 @@
 ---
-title: "Neural Network Pruning for Efficient Inference"
-pi: "timothydmorton"
+title: "Animated Pie Chart of the Universe's Contents"
+pi: "veragluscevic"
 description: |
-  Deep neural networks achieve impressive performance but are often too large
-  to deploy in resource-constrained environments. This project investigates
-  structured and unstructured pruning techniques that reduce model size and
-  inference cost with minimal loss in accuracy.
+  The universe is filled with a mix of ordinary matter, dark matter, dark energy,
+  and radiation — but these components have not always been present in the same
+  proportions. In the early universe, radiation dominated. As the universe expanded
+  and cooled, matter took over, and eventually dark energy came to dominate the
+  energy budget we see today.
 
-  You will start by reproducing a baseline pruning result from a well-known
-  paper, then experiment with pruning schedules and fine-tuning strategies on
-  a small image classification task. The goal is to develop intuition for the
-  accuracy/efficiency tradeoff and to understand where pruning succeeds and
-  fails.
+  In this project you will write original Python code to produce an animated pie
+  chart showing how the composition of the universe evolves from 2 years after the
+  Big Bang to the present day. You will draw on standard cosmological results for
+  the energy densities of each component as a function of time, implement the
+  animation, and present your results clearly.
+
+  Success means producing working, well-organized code you wrote yourself, being
+  able to walk through how it works, and being able to answer basic questions about
+  the expansion history and content of the universe at the level relevant to this
+  project.
 materials:
-  - "https://arxiv.org/abs/1506.02626"
-  - "https://arxiv.org/abs/1803.03635"
-  - "PyTorch documentation: https://pytorch.org/tutorials/intermediate/pruning_tutorial.html"
+  - "Ryden, B. — Introduction to Cosmology (chapters on cosmic composition and expansion)"
+  - "https://arxiv.org/abs/astro-ph/0606077"
+  - "matplotlib animation documentation: https://matplotlib.org/stable/api/animation_api.html"
 goals:
-  - "Understand the difference between structured and unstructured pruning"
-  - "Reproduce a published pruning result on CIFAR-10 or a similar benchmark"
-  - "Analyze the relationship between sparsity level and validation accuracy"
-  - "Write a short report summarizing findings and open questions"
+  - "Understand what the major components of the universe are and how their energy densities scale with the scale factor"
+  - "Write Python code to compute the fractional energy density of each component as a function of cosmic time"
+  - "Produce an animated pie chart showing the evolution of cosmic composition from 2 years after the Big Bang to the present"
+  - "Present the animation and explain the design of the code"
+  - "Answer basic questions about cosmic expansion and the content of the universe"
 ---
