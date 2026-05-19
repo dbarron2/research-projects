@@ -35,6 +35,7 @@ A slug is the directory name and the identifier used throughout the system.
 projects/
   <slug>/
     project.md      ← required
+    resources.md    ← optional: freeform reading list, links, notes for the student
     materials/      ← optional: supplementary files, PDFs, data samples
 ```
 
@@ -62,6 +63,19 @@ goals:
 
 All fields except `materials` and `goals` are required. The `description` field
 supports multi-line text; indent continuation lines by two spaces.
+
+### `resources.md` (optional)
+
+If the project has a richer set of references than fits naturally in the
+`materials` list, you may add a freeform `resources.md` alongside `project.md`.
+This file has no required structure — use any Markdown you like: sections,
+bullet lists, tables, annotated bibliographies. It is displayed to the student
+alongside the main project description.
+
+Use `resources.md` for:
+- Annotated reading lists that benefit from a sentence or two of context per item
+- Multiple categories of references (background, primary papers, tools, datasets)
+- Links that are useful but too peripheral for the short `materials` list
 
 ---
 
