@@ -1,8 +1,7 @@
 # Recommended resources
 
 These are the recommended readings and references for the  
-*Animated Pie Chart of the Universe* project. They support the physics  
-background you will need for the calculations and the written explanation.
+*Understanding Blackbody Radiation with the Cosmic Microwave Background* project. They support the physics and analysis background you will need for the calculations and the written explanation.
 
 ## Primary resources
 
@@ -14,8 +13,6 @@ background you will need for the calculations and the written explanation.
     - Reading the mission overview gives students vital historical and operational context. It explains the design of the Michelson interferometer used by FIRAS, and how the instrument calibrated itself against an internal blackbody simulator.
 - **Measuring the Universe: A Multiwavelength Perspective" by George H. Rieke**
   - This textbook includes fundamentals of astronomical instrumentation and the physical concepts of measurement, sensitivity and noise.
-
-
 
 ## Additional useful resources
 

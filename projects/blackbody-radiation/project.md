@@ -1,4 +1,4 @@
-title: "Fitting the Perfect Blackbody: The Cosmic Microwave Background"
+title: "Understanding Blackbody Radiation with the Cosmic Microwave Background"
 
 pi: "darcybarron"
 
@@ -9,7 +9,7 @@ goals:
 - "Understand units and conversions needed to go from observed flux to an object's physical temperature"
 - "Fit a measured cosmic microwave background spectrum from the COBE FIRAS instrument to an ideal blackbody with a single free parameter, temperature"
 
-# Research Project: Fitting the Perfect Blackbody
+# Research Project: Understanding Blackbody Radiation with the Cosmic Microwave Background
 
 ## Project overview
 
@@ -34,15 +34,15 @@ The FIRAS data points are so precise that their error bars are smaller than the 
 At the end of the project, you should produce:
 
 - **A static plot of the CMB spectrum with the best-fit model**
-  This should display the raw COBE FIRAS data points (with error bars) overlaid with your best-fit theoretical Planck curve. The final calculated temperature should be clearly displayed in the plot's legend or title with appropriate units.
+This should display the raw COBE FIRAS data points (with error bars) overlaid with your best-fit theoretical Planck curve. The final calculated temperature should be clearly displayed in the plot's legend or title with appropriate units.
 - **A static plot of the fit residuals**
-  This should plot the difference between the observed data and your theoretical model ($\text{Data} - \text{Model}$) as a function of frequency or wavenumber. This plot is essential for visualizing whether systemic deviations exist or if the noise is purely statistical.
+This should plot the difference between the observed data and your theoretical model ($\text{Data} - \text{Model}$) as a function of frequency or wavenumber. This plot is essential for visualizing whether systemic deviations exist or if the noise is purely statistical.
 - **A parameter space or $\chi^2$ plot**
-  This plot should show the value of your fit metric (such as the sum of squared residuals or $\chi^2$) as a function of the trial temperature $T$. This helps visualize how the optimization algorithm finds the true minimum.
+This plot should show the value of your fit metric (such as the sum of squared residuals or $\chi^2$) as a function of the trial temperature $T$. This helps visualize how the optimization algorithm finds the true minimum.
 - **A short written explanation**
-  This should explain what your code and plots show. It should describe the physical meaning of a blackbody spectrum, explain why the CMB exhibits this shape, and interpret the scale of the residuals you discovered.
+This should explain what your code and plots show. It should describe the physical meaning of a blackbody spectrum, explain why the CMB exhibits this shape, and interpret the scale of the residuals you discovered.
 - **A clean Python notebook or script**
-  This should handle the data ingestion, unit conversions, model evaluation, optimization, and plotting. The code must be clean, readable, well-commented, and easily reusable by another peer.
+This should handle the data ingestion, unit conversions, model evaluation, optimization, and plotting. The code must be clean, readable, well-commented, and easily reusable by another peer.
 
 ## Suggested workflow
 
