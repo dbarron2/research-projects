@@ -1,13 +1,12 @@
+---
 title: "Understanding Blackbody Radiation with the Cosmic Microwave Background"
-
 pi: "darcybarron"
-
 goals:
-
-- "Learn to read in data files and interpret and visualize them"
-- "Simulate a blackbody spectrum and understand its shape and how it changes with temperature"
-- "Understand units and conversions needed to go from observed flux to an object's physical temperature"
-- "Fit a measured cosmic microwave background spectrum from the COBE FIRAS instrument to an ideal blackbody with a single free parameter, temperature"
+  - "Learn to read in data files and interpret and visualize them"
+  - "Simulate a blackbody spectrum and understand its shape and how it changes with temperature"
+  - "Understand units and conversions needed to go from observed flux to an object's physical temperature"
+  - "Fit a measured cosmic microwave background spectrum from the COBE FIRAS instrument to an ideal blackbody with a single free parameter, temperature"
+---
 
 # Research Project: Understanding Blackbody Radiation with the Cosmic Microwave Background
 
